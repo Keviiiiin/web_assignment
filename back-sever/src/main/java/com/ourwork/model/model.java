@@ -33,8 +33,8 @@ public class model {
       return uTime;
    }
 
-   public void setuTime(LocalDateTime uTime) {
-      this.uTime = uTime;
+   public void setuTime() {
+      this.uTime = LocalDateTime.now();;
    }
 
    public long getId() {
